@@ -1,4 +1,5 @@
 body {
+  margin: 0px;
   height: 100vh;
   display: grid;
   grid-template-columns: 300px 1fr;
@@ -11,6 +12,8 @@ header {
   grid-row: 1/2;
   color: white;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo img {
@@ -19,8 +22,22 @@ header {
   height: 5vh;
 }
 
-nav {
-  margin-right: auto;
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li a {
+  font-size: 18px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 0.3s;
+}
+
+li a:hover {
+  color: #1c1f23;
 }
 
 aside {
