@@ -91,6 +91,8 @@ main {
 
 footer {
   background: #111;
-  width: 100vw;
   color: #fff;
+  text-align: center;
+  grid-row: 3/3;
+  grid-column: 1/3;
 }
