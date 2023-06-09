@@ -1,12 +1,8 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
-
+import { NbCardModule, NbThemeModule } from '@nebular/theme';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
+  exports: [NbCardModule],
+  imports: [NbThemeModule.forRoot()],
 })
-export class NebularModule { }
+export class NebularModule {}
