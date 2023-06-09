@@ -1,5 +1,6 @@
 {
   "name": "nosmad",
+  "homepage": "https://richardson94.github.io/NOSMAD-project/",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
