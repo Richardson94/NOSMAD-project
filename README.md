@@ -1,6 +1,7 @@
 [![pages-build-deployment](https://github.com/Richardson94/NOSMAD-project/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Richardson94/NOSMAD-project/actions/workflows/pages/pages-build-deployment)
+
 <hr>
-<img src="./images/NOSMAD_logo.png">
+<img src="./src/assets/NOSMAD_logo.png">
 
 # About
 
