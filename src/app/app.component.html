@@ -1,58 +1,14 @@
-<header>
-  <a class="logo" href="#"><img src="./assets/NOSMAD_logo.png" /></a>
-  <nav>
-    <ul>
-      <li><a href="#">News</a></li>
-      <li><a href="#">Notes</a></li>
-      <li><a href="#">Routine</a></li>
-      <li><a href="#">Schedule</a></li>
-      <li><a href="#">Planner</a></li>
-    </ul>
-  </nav>
-  <div class="user">
-    <img src="./assets/user_icon.png" width="35px" height="35px" alt="" />
-    <div class="user_info">
-      <h4>Guest USER</h4>
-      <span>Hello there!</span>
-    </div>
-  </div>
-</header>
+<nb-layout>
+  <nb-layout-header fixed style="background-color: #1897d9">
+    <navbar></navbar
+  ></nb-layout-header>
 
-<main>
-  <div class="card">
-    <article>
-      <h2>This is a test</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex debitis et
-        perspiciatis voluptates iste soluta expedita. Tempora quisquam
-        asperiores, culpa beatae quae eius numquam voluptates porro ipsam
-        pariatur molestiae repudiandae?
-      </p>
-    </article>
-  </div>
-  <div class="card"></div>
-  <div class="card"></div>
-  <div class="card"></div>
-  <div class="card"></div>
-  <div class="card"></div>
-  <div class="card"></div>
-  <div class="card"></div>
-  <div class="card">
-    <section>
-      <h1>Another Test</h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus
-        delectus ea consequuntur, ipsum eveniet neque quos repudiandae, sit
-        adipisci dolore nisi, officia molestiae saepe nihil. Itaque velit magni
-        voluptatem saepe.>
-      </p>
-    </section>
-  </div>
-</main>
-<footer>
-  <p>
-    Copyright &copy;2023 NOSMAD all rights reserved. Designed by
-    <span>RichardSon_94</span>
-  </p>
-</footer>
-<!-- <router-outlet></router-outlet> -->
+  <nb-layout-column> <router-outlet></router-outlet></nb-layout-column>
+
+  <nb-layout-footer>
+    <p>
+      Copyright &copy;2023 NOSMAD all rights reserved. Designed by
+      <span>RichardSon_94</span>
+    </p>
+  </nb-layout-footer>
+</nb-layout>
