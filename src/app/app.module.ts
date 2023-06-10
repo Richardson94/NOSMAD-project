@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { HomeModule } from './home/home.module';
 import { AppRoutingModule } from './app-routing.module';
-import { NbThemeModule } from '@nebular/theme';
+import { NebularModule } from './nebular/nebular.module';
+import { HomeModule } from './home/home.module';
 
 import { AppComponent } from './app.component';
+import { NavbarModule } from './navbar/navbar.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -13,7 +14,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     HomeModule,
     AppRoutingModule,
-    NbThemeModule.forRoot(),
+    NebularModule,
+    NavbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
