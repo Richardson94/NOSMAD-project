@@ -1,0 +1,11 @@
+div.p-menubar.p-component {
+  background-color: #1897d9;
+}
+
+p-menubarsub.p-element {
+  padding-left: 20%;
+}
+
+li.p-element.p-menuitem {
+  color: white;
+}

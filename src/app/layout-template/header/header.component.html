@@ -1,1 +1,11 @@
-<h1><p>header works!</p></h1>
+<div class="card">
+  <p-menubar [model]="items">
+    <ng-template pTemplate="start">
+      <img src="../../../assets/NOSMAD_logo.png" height="40" class="mr-2" />
+    </ng-template>
+    <ng-template pTemplate="end">
+      <span>Guest User</span><br />
+      <small>Hello there!</small>
+    </ng-template>
+  </p-menubar>
+</div>
