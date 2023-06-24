@@ -1,14 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './home.component';
-//import { NebularModule } from '../nebular/nebular.module';
+import { NewsComponent } from './pages/news/news.component';
+import { TimeLineComponent } from './pages/time-line/time-line.component';
 
 @NgModule({
-  declarations: [HomeComponent],
-  imports: [
-    CommonModule,
-    //NebularModule
-  ],
-  exports: [HomeComponent],
+  declarations: [NewsComponent, TimeLineComponent],
+  imports: [CommonModule],
+  exports: [NewsComponent],
 })
 export class HomeModule {}

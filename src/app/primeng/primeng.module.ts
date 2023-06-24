@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 
+import { ButtonModule } from 'primeng/button';
+
 @NgModule({
-  exports: [],
+  exports: [ButtonModule],
   providers: [],
 })
 export class primeNgModule {}
